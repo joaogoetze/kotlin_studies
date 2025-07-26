@@ -42,7 +42,12 @@ fun main() {
     //    else -> println("Default option")
     //}
 
-    val dude = Person("João", "??????")
-    dude.walk()
-    println(dude.name)
+    //val dude = Person("João", "??????")
+    //dude.walk()
+    //println(dude.name)
+
+    val lil_dude = Children("João", "??????", "ball")
+    lil_dude.play()
+    lil_dude.figth()
+    println(lil_dude.fav_toy)
 }

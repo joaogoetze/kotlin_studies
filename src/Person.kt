@@ -1,4 +1,4 @@
-class Person(name: String, dream: String) {
+open class Person(name: String, dream: String) {
 
     //Indicam os atributos do objeto instanciado
     var name: String = ""
@@ -13,4 +13,11 @@ class Person(name: String, dream: String) {
     fun walk(){
         println("walked");
     }
+
+    // Apenas classes filhas podem acessar e a própria classe podem acessar
+    protected fun cry(){
+        println("I'm crying")
+    }
+
+
 }
