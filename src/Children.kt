@@ -1,4 +1,4 @@
-class Children(name: String, dream: String, fav_toy: String) : Person(name, dream) {
+class Children(name: String, dream: String, bornYear: Int, fav_toy: String) : Person(name, dream, bornYear) {
 
     var fav_toy = ""
 
